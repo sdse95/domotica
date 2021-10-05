@@ -42,6 +42,7 @@ $(document).ready( function()
         console.log(estado4);
         console.log(estado5);
         console.log(estado6);
+        
 
         if (estado1) {
             // algo si es true
