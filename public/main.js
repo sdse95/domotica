@@ -1,6 +1,6 @@
 const signupForm = document.querySelector('#signup-form');
 
-signupForm.addEventListener('submint', (e) => {
+signupForm.addEventListener('submit', (e) => {
 	e.preventDefault();
 	console.log('subiendo');
 })
