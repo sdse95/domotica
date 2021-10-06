@@ -96,6 +96,12 @@
 		  // Initialize Firebase
 		  const app = initializeApp(firebaseConfig);
 		  const auth = getAuth();
+		  createUserWithEmailAndPassword(email,password)
+		  .then(userCredential => {
+			console.log('sing up')
+		})
+
+
 		  const analytics = getAnalytics(app);
 		  
 	</script>
