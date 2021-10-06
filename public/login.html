@@ -6,6 +6,8 @@
 	<title>Dotronic login</title>
 	<!-- BOOTSTRAP CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
 
 </head>
 <body>
@@ -72,6 +74,7 @@
 		  // Import the functions you need from the SDKs you need
 		  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
 		  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-analytics.js";
+
 		  // TODO: Add SDKs for Firebase products that you want to use
 		  // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -91,11 +94,11 @@
 		  // Initialize Firebase
 		  const app = initializeApp(firebaseConfig);
 		  const analytics = getAnalytics(app);
+		  const auth = firebase.auth();
 	</script>
 
 <!-- MAIN JS CUSTOM CODE -->
 
 	<script src="main.js"></script>
-
 	</body>
 </html>
