@@ -3,9 +3,13 @@ const signupForm = document.querySelector('#signup-form');
 signupForm.addEventListener('submit', (e) => {
 	e.preventDefault();
 
-	const signupEmail = document.querySelector('#signup-email').value;
-	const signupPassword = document.querySelector('#signup-password').value;
+	const email = document.querySelector('#signup-email').value;
+	const password = document.querySelector('#signup-password').value;
 
+	auth
+		.createUserWithEmailAndPassword(email,password)
+		.then(userCredential => {
+			console.log('sing up')
+		})
 
-	console.log(signupEmail, signupPassword);
 })
