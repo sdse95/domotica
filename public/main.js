@@ -7,7 +7,7 @@ signupForm.addEventListener('submit', (e) => {
 	const password = document.querySelector('#signup-password').value;
 
 	auth
-		.createUserWithEmailAndPassword(auth, email,password)
+		.createUserWithEmailAndPassword(email,password)
 		.then(userCredential => {
 			console.log('sing up')
 		})
