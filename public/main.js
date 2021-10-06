@@ -7,5 +7,5 @@ signupForm.addEventListener('submit', (e) => {
 	const signupPassword = document.querySelector('#signup-password');
 
 
-	console.log(signupEmail, signuppassword);
+	console.log(signupEmail, signupPassword);
 })
