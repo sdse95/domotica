@@ -36,7 +36,7 @@ var firebaseConfig = {
 
 
 		  //activate user to homepage
-		  firebase.auth().onAuthStateChanged((User)=>{
+		  firebase.auth().onAuthStateChanged((user)=>{
 		  	if(user){
 		  		var email = user.email;
 
