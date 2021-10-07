@@ -11,5 +11,9 @@ signupForm.addEventListener('submit', (e) => {
 		.then(userCredential => {
 			console.log('sing up')
 		})
-
+		.catch((error) => {	
+		    var errorCode = error.code;
+		    var errorMessage = error.message;
+		    console.log(errorCode, errorMessage)
+  		});
 })
