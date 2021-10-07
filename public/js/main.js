@@ -51,12 +51,12 @@ $(document).ready(function(){
 
           // Initialize Firebase
 
-              firebase.initializeApp(firebaseConfig);
+                firebase.initializeApp(firebaseConfig);
               
-              const auth = firebase.auth();
-              //singOut function
-               auth.signOut();
-               alert("signOut Successfully from System");
+                const auth = firebase.auth();
+                //singOut function
+                auth.signOut();
+                alert("signOut Successfully from System");
 		    	window.location='index.html'; 
 		  	}
 		});
