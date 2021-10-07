@@ -24,11 +24,19 @@ var firebaseConfig = {
 
 		  	promise.cath(e=> alert(e.message));
 		  	alert("SingUp Succesfully");
-		  	console.log('accedio');
 		  }
 
 
-		  //singIn function
+		  //SignIn function
+		  function signIn(){
+		  	var email = document.getElementById("email");
+		  	var password = document.getElementById("password");
+		  	const promise = auth.signInWithEmailAndPAssword(email.value, password.value);
+		  	promise.catch(e=>alert(e.message));
+		  }
+
+
+		  //singOut function
 
 		  function signOut(){
 		  	auth.signOut();
