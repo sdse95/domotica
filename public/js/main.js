@@ -55,12 +55,8 @@ $(document).ready(function(){
               
               const auth = firebase.auth();
               //singOut function
-
-            function signOut(){
                auth.signOut();
                alert("signOut Successfully from System");
-            }
-
 		    	window.location='index.html'; 
 		  	}
 		});
