@@ -23,7 +23,7 @@ var firebaseConfig = {
 		  	const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
 
 		  	promise.cath(e=> alert(e.message));
-		  	aaler("SingUp Succesfully");
+		  	alert("SingUp Succesfully");
 		  }
 
 
