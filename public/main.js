@@ -24,6 +24,7 @@ var firebaseConfig = {
 
 		  	promise.cath(e=> alert(e.message));
 		  	alert("SingUp Succesfully");
+		  	console.log('accedio');
 		  }
 
 
