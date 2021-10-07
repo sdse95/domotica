@@ -12,52 +12,17 @@
 <body>
 	<script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
 	<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<div class="container">
-			<a class="navbar-brand" href="#">Navbar</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
-				     	<li class="nav-item">
-				     		<a class="nav-link" href="#">Signin</a>
-				     	</li>
-				     	<li class="nav-item">
-				     		<a class="nav-link" href="#" data-toggle="modal" data-target="#singupModal">Signup</a>
-				     	</li>
-				     </ul>
-		  		</div>
+	<div class="body"></div>
+		<div class="grad"></div>
+			<div class="header">
+				<div>Site<span>Random</span></div>
 			</div>
-		</nav>
-
-
-		<!-- Modal -->
-<div class="modal fade" id="singupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form id="signup-form">
-        	<div class="form-group">
-        		<input type="text" id="signup-email" class="form-control" placeholder="email" required>
-        	</div>
-        	<div class="form-group">
-        		<input type="password" id="signup-password" class="form-control" placeholder="Password" required>
-        	</div>
-     	<button type="submit" class="btn btn-primary">
-        		Signup
-     	</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+		<br>
+	<div class="login">
+				<input type="text" placeholder="username" id="email" name="user"><br>
+				<input type="password" placeholder="password" id="password" name="password"><br>
+				<input type="button" value="Login">
+		</div>
 
 
 <!--BOOSTRAP SCRIPTS-->
@@ -69,9 +34,9 @@
 
 
 	<!-- FIREBASE SCRIPTS -->
-	<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
 
 	<script type="module">
 		  // Import the functions you need from the SDKs you need
