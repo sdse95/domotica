@@ -33,6 +33,9 @@ var firebaseConfig = {
 		  	var password = document.getElementById("password");
 		  	const promise = auth.signInWithEmailAndPAssword(email.value, password.value);
 		  	promise.catch(e=>alert(e.message));
+		  	if(promise){
+		  		console.log('Trasladar')
+		  	}
 		  }
 
 
