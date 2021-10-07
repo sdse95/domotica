@@ -95,7 +95,7 @@ body{
 }
 
 .login input[type=button]{
-	width: 100px;
+	width: 260px;
 	height: 35px;
 	background: #fff;
 	border: 1px solid #fff;
@@ -138,13 +138,3 @@ body{
 ::-moz-input-placeholder{
    color: rgba(255,255,255,0.6);
 }
-
-
-
-
-
-
-
-
-
-
