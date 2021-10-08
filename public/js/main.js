@@ -38,9 +38,9 @@ $(document).ready(function(){
 		},
 		function(isConfirm) {
 		  	if (isConfirm) {
-		    	window.location='index.html';
                 auth.signOut();
                 alert("signOut Successfully from System");
+		    	window.location='index.html';
 		  	}
 		});
     });
