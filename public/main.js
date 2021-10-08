@@ -32,10 +32,10 @@ var firebaseConfig = {
 		  	var email = document.getElementById("email");
 		  	var password = document.getElementById("password");
 		  	const promise = auth.signInWithEmailAndPassword(email.value, password.value);
-		  	if(promise){
+		  	then(
 		  	promise.catch(e=>alert(e.message));
 		  	window.location.href="https://dotronicdemo-4598f.firebaseapp.com/home.html"	
-		  			}
+		  			)
 		  		}
 
 
