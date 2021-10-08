@@ -35,8 +35,8 @@ var firebaseConfig = {
 		  	if(promise){
 		  	promise.catch(e=>alert(e.message));
 		  	window.location.href="https://dotronicdemo-4598f.firebaseapp.com/home.html"	
-		  	}
-		  			  }
+		  			}
+		  		}
 
 
 		  //singOut function
