@@ -37,6 +37,7 @@ var firebaseConfig = {
 		  	window.location.href="https://dotronicdemo-4598f.firebaseapp.com/home.html"	
 		  			}
 		  		}
+		  		
 
 
 		  //singOut function
