@@ -41,6 +41,7 @@ $(document).ready(function(){
                 auth.signOut();
                 alert("signOut Successfully from System");
 		    	window.location='index.html';
+                console.log(events)
 		  	}
 		});
     });
