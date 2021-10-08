@@ -33,8 +33,11 @@ var firebaseConfig = {
 		  	var password = document.getElementById("password");
 		  	const promise = auth.signInWithEmailAndPassword(email.value, password.value);
 		  	.then(userCredential => {
+		  		if(promise){
+		  			window.location.href="https://dotronicdemo-4598f.firebaseapp.com/home.html"		
+		  		}
 		  	//promise.catch(e=>alert(e.message));
-		  	window.location.href="https://dotronicdemo-4598f.firebaseapp.com/home.html"	
+		  		
 		  			})
 		  		}
 
